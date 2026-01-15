@@ -16,7 +16,7 @@
     >
         Contact Me
     </h1>
-    <div class="contact-info-upper-container border rounded-3xl">
+    <div class="contact-info-upper-container">
         <div class="contact-info-container">
             <a class="text-slate-500" href="mailto:sanjaygeorge16@gmail.com">
                 <EmailIcon size={10} color="slate-400" /></a
