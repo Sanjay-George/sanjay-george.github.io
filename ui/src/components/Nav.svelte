@@ -8,13 +8,13 @@
 
     const items = [
         {
-            name: "About",
+            name: "Career",
             link: "#about",
         },
-        {
-            name: "Experience",
-            link: "#experience",
-        },
+        // {
+        //     name: "Experience",
+        //     link: "#experience",
+        // },
         {
             name: "Projects",
             link: "#projects",

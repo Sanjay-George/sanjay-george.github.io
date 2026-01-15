@@ -13,8 +13,8 @@
 <main>
 	<Profile />
 	<About />
-	<Experience />
 	<Projects />
+	<!-- <Experience /> -->
 	<Contact />
 </main>
 

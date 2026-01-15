@@ -5,27 +5,49 @@
 
     const projects = [
         {
-            title: "Rolls Royce Product Steering Platform",
+            title: "AI Projects",
             description:
-                "A comprehensive solution to improve production efficiency at Rolls Royce.",
+                "Collaborated with teams in Germany and the US to build AI-driven diagnostic agents, first-pass yield predictors, and anomaly detection systems.",
+            impact: [
+                "Improvement in KPIs by up to 25%",
+                "Successful Oktoberfest demo securing multi-year partnerships",
+            ],
             scope: "work",
             github: null,
-            skills: ["PHP", "Vue", "MySQL"],
+            skills: ["Python", "pgvector", "MLflow"],
         },
+        {
+            title: "Design & Verification Platform",
+            description:
+                "Directed modernization of Rolls Royce's engineering design platform with a Vue + Laravel shift and optimized data models.",
+            impact: [
+                "60% reduction in response times",
+                "Enhanced security & maintainability",
+            ],
+            scope: "work",
+            github: null,
+            skills: ["PHP", "Vue", "SQL", "Azure"],
+        },
+        // {
+        //     title: "Cost & Complexity Management Tool",
+        //     description:
+        //         "Enterprise application for managing and optimizing production costs and complexities across multiple business units.",
+        //     impact: ["40% cost optimization in key projects"],
+        //     scope: "work",
+        //     github: null,
+        //     skills: ["PHP", "Vue", "SQL", "Azure"],
+        // },
         {
             title: "Container Transportation Solution",
             description:
-                "A solution to optimize container validation and transportation for a logistics SME.",
+                "Led architecture and delivery of an event-driven logistics platform (Node.js, TypeScript, Azure)",
+            impact: [
+                "Reduced operational delays by 53%",
+                "Cut manual processes by 80%",
+            ],
             scope: "work",
             github: null,
-            skills: [
-                "Node.js",
-                "Azure",
-                "SQL Server",
-                "GH Actions",
-                "Puppeteer",
-                "Java",
-            ],
+            skills: ["Node.js", "Java", "Azure", "SQL", "Puppeteer"],
         },
         {
             title: "Document.io",
@@ -91,6 +113,17 @@
                         >
                             {project.description}
                         </p>
+                        {#if project?.impact?.length}
+                            <div class="flex flex-col gap-0.5">
+                                {#each project.impact as impact}
+                                    <p
+                                        class="mb-1 text-slate-500 dark:text-slate-400 sm:text-lg"
+                                    >
+                                        - {impact}
+                                    </p>
+                                {/each}
+                            </div>
+                        {/if}
                         {#if project.github}
                             <a href={project.github} target="_blank">
                                 <Github size={10} color="slate-400" /></a

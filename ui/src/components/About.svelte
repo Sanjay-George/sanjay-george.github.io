@@ -4,42 +4,41 @@
 
     const about = [
         {
-            date: "January 2023",
-            title: "Software Engineer at Newboxes GmbH",
+            date: "June 2025",
+            title: "Service Unit Lead (AI & Research) at newboxes GmbH",
             description:
-                "Developed event-driven logistics solutions, cutting delays by 53%. Built container validation systems, reducing manual processes by 80%. Enhanced CI/CD efficiency, reducing release cycles by 35%.",
-            skills: [
-                "Node.js",
-                "SQL Server",
-                "Azure",
-                "GitHub Actions",
-                "Svelte",
-            ],
+                "Led platform architecture and delivery for a fast-growing logistics company. Worked with global teams to streamline operations, reduce manual work, and improve release speed. Helped shape internal practices around testing, CI/CD, and collaboration.",
+        },
+        {
+            date: "January 2023",
+            title: "Software Engineer at newboxes GmbH",
+            description: "",
+            skills: ["Node.js", "SQL", "Azure", "CI/CD", "Vue", "PHP"],
         },
         {
             date: "April 2022",
-            title: "Moved to Germany for Master's",
+            title: "Moved to Germany for Postgraduate Studies",
             description:
-                "Started pursuing Master's in Applied Computer Science at Hochschule Fulda, focusing on cloud computing, data engineering, and software optimization.",
-        },
-        {
-            date: "October 2021",
-            title: "Team Lead (Bikes Division) at CarTrade Tech",
-            description:
-                "Led migration to microservices and React, ensuring zero downtime. Improved system reliability by 80% and optimized key features for better monetization.",
+                "Started pursuing MSc in Applied Computer Science at Hochschule Fulda, focusing on AI, cloud computing, data engineering, and distributed systems, strengthening my technical expertise.",
         },
         {
             date: "March 2021",
-            title: "Team Lead (Used Cars Team) at CarTrade Tech",
+            title: "Team Lead at CarTrade Tech",
             description:
-                "Launched a new used cars product line, boosting revenue streams. Ensured smooth integration with the platform, maintaining high code quality.",
+                "Guided the migration of key systems to modern architecture with high uptime and performance goals. Supported engineers in delivery planning, code standards, and cross-team coordination for large-scale product updates.",
         },
+        // {
+        //     date: "March 2021",
+        //     title: "Team Lead (Used Cars Team) at CarTrade Tech",
+        //     description:
+        //         "Launched a new used cars product line, boosting revenue streams. Ensured smooth integration with the platform, maintaining high code quality.",
+        // },
         {
             date: "June 2018",
             title: "Software Engineer at CarTrade Tech",
             description:
-                "Engineered SEO-optimized features for high-traffic pages. Developed consumer and dealer-facing solutions, improving user engagement and sales.",
-            skills: [".NET C#", "React", "MySQL", "Docker", "Kubernetes"],
+                "Contributed to the development of high-traffic web platforms and helped improve SEO performance and monetization. Collaborated closely with design and product teams to build stable, user-facing features.",
+            skills: [".NET C#", "React", "SQL", "Docker", "Kubernetes"],
         },
     ];
 </script>
@@ -48,23 +47,25 @@
     <p class="section__text__p1 mb-1">
         <span
             class="text-transparent bg-clip-text bg-gradient-to-r to-slate-500
-            from-purple-600 dark:to-slate-300">Get To Know More</span
+            from-purple-600 dark:to-slate-300">A glimpse at my</span
         >
     </p>
     <h1
         class="title sm:mb-7 mt-0 text-3xl font-extrabold
         md:text-5xl lg:text-6xl text-slate-500 dark:text-slate-200"
     >
-        About Me
+        Career Highlights
     </h1>
 
     <div class="text-xl sm:border sm:rounded-3xl sm:px-16">
         <div class="my-5 sm:my-10 text-slate-500 dark:text-slate-200">
-            Software Engineer with 5+ years of experience delivering scalable,
-            data-driven solutions. Skilled in understanding business goals,
-            collaborating with cross-functional teams, and holistically
-            engineering products that drive business success and customer
-            satisfaction.
+            Software Engineer with 7+ years of experience designing scalable,
+            data-driven platforms across logistics, manufacturing, and
+            enterprise domains. I focus on improving architecture, automation,
+            and team productivity through modern engineering practices.
+            <!-- Skilled in leading cross-functional teams, -->
+            <!-- modernizing legacy systems, and applying DevOps and AI-driven -->
+            <!-- practices to build reliable, high-performing applications. -->
         </div>
         <div>
             <ol class="relative border-s border-slate-200">
