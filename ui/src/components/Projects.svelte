@@ -1,6 +1,5 @@
 <script>
     import SkillTag from "./SkillTag.svelte";
-    import ArrowIcon from "./icons/ArrowIcon.svelte";
     import Github from "./icons/Github.svelte";
 
     const projects = [
@@ -43,7 +42,7 @@
                 "Led architecture and delivery of an event-driven logistics platform (Node.js, TypeScript, Azure)",
             impact: [
                 "Reduced operational delays by 53%",
-                "Cut manual processes by 80%",
+                // "Cut manual processes by 80%",
             ],
             scope: "work",
             github: null,
@@ -134,5 +133,4 @@
             </div>
         {/each}
     </div>
-    <ArrowIcon scrollTo="#contact" />
 </section>

@@ -1,5 +1,4 @@
 <script>
-    import ArrowIcon from "./icons/ArrowIcon.svelte";
     import SkillTag from "./SkillTag.svelte";
 
     const about = [
@@ -106,6 +105,4 @@
             </ol>
         </div>
     </div>
-
-    <ArrowIcon scrollTo="#experience" />
 </section>

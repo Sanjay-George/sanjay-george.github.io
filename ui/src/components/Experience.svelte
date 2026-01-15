@@ -1,6 +1,5 @@
 <script>
     import Skill from "./Skill.svelte";
-    import ArrowIcon from "./icons/ArrowIcon.svelte";
 
     const dev = [
         "Node.js",
@@ -73,5 +72,4 @@
             </div>
         </div>
     </div>
-    <ArrowIcon scrollTo="#projects" />
 </section>
